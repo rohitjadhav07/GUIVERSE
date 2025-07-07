@@ -1,0 +1,17 @@
+
+[package]
+name = "GUIversePets"
+version = "1.0.0"
+authors = ["GUIverse Team"]
+
+[addresses]
+guiverse_pets = "0x1"
+
+[dev-addresses]
+guiverse_pets = "0x1"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token-objects", rev = "main" }
+
+[dev-dependencies]
